@@ -1,0 +1,4 @@
+command /broadcast <text>:
+  permission: tool.admin
+  trigger:
+    broadcast "%arg-1%"
